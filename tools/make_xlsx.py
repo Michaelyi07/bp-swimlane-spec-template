@@ -112,7 +112,7 @@ for c, w in zip(range(1, 5), [12, 22, 18, 70]):
 
 ws4 = wb2.create_sheet("Change Log 变更日志")
 cl_headers = ["版本", "日期", "修订人", "修订内容", "评审状态"]
-cl_rows = [["v0.1", "2026-11-25", "daoye-data-agent", "初稿（含完整 8 步说明表）", "Draft"]]
+cl_rows = [["v0.1", "2026-11-24", "daoye-data-agent", "初稿（含完整 8 步说明表）", "Draft"]]
 for c, h in enumerate(cl_headers, 1):
     cell = ws4.cell(row=1, column=c, value=h)
     cell.font = head_font; cell.fill = head_fill; cell.border = border

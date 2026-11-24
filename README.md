@@ -10,12 +10,17 @@ All content is **fictional** — no real enterprise or personal data, no client 
 | `spec/swimlane-drawing-spec.md` | Drawing specification: 11 fixed swimlanes & order, BPMN-compatible symbol subset, numbering, 8-column step table, annotation rules, version rules, file naming |
 | `template/bp-template.drawio` | draw.io template: full symbol library (SYM-01…SYM-12 incl. custom `review_queue`), three-color legend, annotation legend, 11-lane pool |
 | `template/bp-template.png` | Rendered view of the template (exported by official draw.io CLI) |
+| `template/bp-template.pdf` | Template as PDF (vector, scope item 1: drawio + PNG + PDF) |
 | `template/step-description-table-template.xlsx` | Step description table template — exactly 8 columns |
 | `example/BP-PKG-01-package-receiving-pickup-v0.1.drawio` | Sample swimlane diagram: fictional "Package Receiving and Pickup" flow, 8 steps + 1 XOR gateway |
 | `example/BP-PKG-01-package-receiving-pickup-v0.1.png` | Rendered PNG of the sample |
 | `example/BP-PKG-01-step-description-table.xlsx` | Complete step table for the sample (8 rows, 1:1 with diagram) + annotations list + change log |
+| `example/BP-PKG-01-change-log.md` | Change log table for the sample flow |
+| `example/BP-PKG-01-package-receiving-pickup-v0.1.pdf` | Sample diagram as PDF |
 | `tools/make_xlsx.py` | Regenerates both .xlsx files |
 | `tools/verify.py` | Reproducible acceptance checks (see below) |
+| `verification/RENDER-AND-CHECKS.md` | Real commands and raw outputs of rendering/checks |
+| `verification/verify-output.txt` | Full raw output of tools/verify.py (18/18 PASS) |
 | `template/bp-template-opened-screenshot.png` | Screenshot of the template opened in draw.io desktop |
 
 ## How to view

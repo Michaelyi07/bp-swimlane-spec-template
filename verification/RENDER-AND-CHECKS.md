@@ -5,11 +5,11 @@
 ## 1. PNG rendering by official draw.io CLI
 
 ```
-$ "D:/tmp/drawio-cli/app/draw.io.exe" -x -f png -s 2 --crop -o "template/bp-template.png" "template/bp-template.drawio"
+$ draw.io -x -f png -s 2 --crop -o "template/bp-template.png" "template/bp-template.drawio"
 
 template/bp-template.drawio -> template/bp-template.png      (exit code 0)
 
-$ "D:/tmp/drawio-cli/app/draw.io.exe" -x -f png -s 2 --crop -o "example/BP-PKG-01-package-receiving-pickup-v0.1.png" "example/BP-PKG-01-package-receiving-pickup-v0.1.drawio"
+$ draw.io -x -f png -s 2 --crop -o "example/BP-PKG-01-package-receiving-pickup-v0.1.png" "example/BP-PKG-01-package-receiving-pickup-v0.1.drawio"
 
 example/BP-PKG-01-package-receiving-pickup-v0.1.drawio -> example/BP-PKG-01-package-receiving-pickup-v0.1.png   (exit code 0)
 ```
@@ -31,3 +31,15 @@ $ python tools/make_xlsx.py
 saved template/step-description-table-template.xlsx
 saved example/BP-PKG-01-step-description-table.xlsx
 ```
+
+## 4. PDF export (scope item 1: drawio + PNG + PDF)
+
+```
+$ draw.io -x -f pdf --crop -o "template/bp-template.pdf" "template/bp-template.drawio"
+template/bp-template.drawio -> template/bp-template.pdf      (exit code 0)
+
+$ draw.io -x -f pdf --crop -o "example/BP-PKG-01-package-receiving-pickup-v0.1.pdf" "example/BP-PKG-01-package-receiving-pickup-v0.1.drawio"
+example/BP-PKG-01-package-receiving-pickup-v0.1.drawio -> example/BP-PKG-01-package-receiving-pickup-v0.1.pdf   (exit code 0)
+```
+
+PDF sizes: template 272632 bytes, sample 164137 bytes (vector, cropped to content).

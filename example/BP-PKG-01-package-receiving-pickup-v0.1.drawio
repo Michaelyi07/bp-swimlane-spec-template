@@ -37,7 +37,7 @@
         <mxCell id="g01" value="G01" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;fontStyle=1;" vertex="1" parent="laneF">
           <mxGeometry x="560" y="30" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g01lbl" value="身份核验通过？" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;whiteSpace=wrap;" vertex="1" parent="laneF">
+        <mxCell id="g01lbl" value="BP-PKG-01G01 身份核验通过？" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;whiteSpace=wrap;" vertex="1" parent="laneF">
           <mxGeometry x="545" y="92" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s04" value="&lt;b&gt;BP-PKG-01S04&lt;/b&gt;&lt;br&gt;确认套餐权益与数量&lt;br&gt;&lt;font style=&quot;font-size:8px&quot; color=&quot;#666666&quot;&gt;H: member-data-crm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="laneM">
