@@ -1,6 +1,6 @@
 # 会员空间平台 · 业务流程泳道图绘制规范（BP Drawing Specification）
 
-**Spec ID:** BP-SPEC-01 · **Version:** v1.0 · **Status:** Approved（评审通过记录见 §7 变更日志）
+**Spec ID:** BP-SPEC-01 · **Version:** v1.1 · **Status:** Approved（评审通过记录见 §7 变更日志）
 **适用范围:** Stage i Blueprint & Naming · Business Blueprint & Process Diagrams 模块下全部流程图
 **All fictional content. No real enterprise or personal data. No client name appears in this deliverable.**
 
@@ -23,8 +23,8 @@
 | 3 | 前台 | front_desk | human |
 | 4 | 运营 | operations | human |
 | 5 | 会员经理 | member_manager | human |
-| 6 | 商务拓展（BD） | BD | human |
-| 7 | BD主管 | BD_supervisor | human |
+| 6 | 招商 | investment_promotion | human |
+| 7 | 招商主管 | investment_promotion_supervisor | human |
 | 8 | 财务 | finance | human |
 | 9 | 管理层 | management | human |
 | 10 | 会员空间平台（系统） | platform | system(auto) |
@@ -114,6 +114,7 @@
 |---|---|---|---|---|
 | v0.1 | 2026-11-24 | daoye-data-agent | 初稿 | Draft |
 | v1.0 | 2026-11-24 | daoye-data-agent | 评审通过，发布基线 | Approved |
+| v1.1 | 2026-11-27 | daoye-data-agent | §2 固定泳道第 6/7 条按订单原文更名为「招商 / 招商主管」（Lane ID: investment_promotion / investment_promotion_supervisor），同步模板泳道池；其余 9 条泳道与顺序不变 | Approved |
 
 ## 8. 文件命名与目录结构（File Naming & Directory Structure）
 

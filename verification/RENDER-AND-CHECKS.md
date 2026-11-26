@@ -43,3 +43,24 @@ example/BP-PKG-01-package-receiving-pickup-v0.1.drawio -> example/BP-PKG-01-pack
 ```
 
 PDF sizes: template 272632 bytes, sample 164137 bytes (vector, cropped to content).
+
+## 5. Revision v1.1 (rework of 2026-11-27: lane 6/7 renamed to 订单原文)
+
+Order #2195 rework request: fixed swimlane list rows 6/7 must use the order's original wording 「招商」「招商主管」(Lane ID: investment_promotion / investment_promotion_supervisor) instead of 「商务拓展（BD）」「BD主管」. Changes: spec §2 rows 6/7, spec version v1.0 → v1.1 (+ change-log row), template pool lanes 06/07, symbol-library page title v1.1, `tools/verify.py` LANE_ORDER. The other 9 lanes and the order are unchanged. The sample diagram and both step tables do not use lanes 6/7 (their executing_role values are unchanged).
+
+Re-runs after the rename:
+
+```
+$ draw.io -x -f png -s 2 --crop -o "template/bp-template.png" "template/bp-template.drawio"
+
+template/bp-template.drawio -> template/bp-template.png      (exit code 0)
+
+$ draw.io -x -f pdf --crop -o "template/bp-template.pdf" "template/bp-template.drawio"
+
+template/bp-template.drawio -> template/bp-template.pdf      (exit code 0)
+
+$ python tools/verify.py
+18/18 checks passed   (exit code 0)
+```
+
+`template/bp-template-opened-screenshot.png` re-captured after the rename: template opened in draw.io desktop 32.7.4 — left shape panel, canvas (symbol library + 11-lane pool with 招商/招商主管 in rows 6/7) and the "BP-SPEC-01 Template" page tab visible.
